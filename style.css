@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'chunky-queen';
+    src: url('C:/Users/enano/OneDrive/Escritorio/ciberseguridad/ThePower/practicas/pinterart/fonts/ChunkyQueen-ZVvxB.otf');
+}
+
+body {
+    background-color: grey;
+    margin: 0;
+    font-family: 'chunky-queen';
+    font-size: x-large;
+    line-height: normal;
+}
+
+header {
+    display: flex;
+    background-color: black;
+    /* color: #fff; */
+    color: #00e004;
+    margin-bottom: 40px;
+}
+
+.col-nav-1,
+.col-nav-2,
+.col-nav-empty {
+    flex: 1;
+}
+
+.col-nav-1 {
+    width: 30%;
+}
+
+.col-nav-empty {
+    width: 30%;
+}
+
+.col-nav-2 {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.col-nav-1 ul,
+.col-nav-2 ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.col-nav-1 ul li,
+.col-nav-2 ul li {
+    margin-right: 20px;
+    list-style: none;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+    filter: invert(1);
+}
+
+button {
+    background-color: white;
+}
+
+#gallery {
+    margin: 0 20px 10px 20px;
+    text-align: center;
+}
+
+#gallery img {
+    max-width: 40%;
+    height: auto;
+    margin: 10px;
+}
+
+footer {
+    /* position: fixed; */
+    /* bottom: 0; */
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+}
