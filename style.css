@@ -65,6 +65,7 @@ header {
     width: 100%;
     height: auto;
     filter: invert(1);
+    margin-left: 12px;
 }
 
 button {
@@ -83,10 +84,15 @@ button {
 }
 
 footer {
-    /* position: fixed; */
-    /* bottom: 0; */
+    position: absolute;
+    bottom: 0;
     left: 0;
     width: 100%;
     background-color: black;
-    color: #fff;
+    /* color: #fff; */
+    color: #00e004;
+}
+
+.contact-info {
+    margin-left: 60px;
 }
