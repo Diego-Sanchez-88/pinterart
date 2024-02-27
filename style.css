@@ -1,5 +1,4 @@
 @font-face {
-    /* font-family: 'chunky-queen'; */
     font-family: 'falling-sky-condensed-oblique';
     src: url('fonts/FallingSkyCondensedOblique-leLw.otf');
 }
@@ -8,7 +7,6 @@ body {
     background-color: grey;
     margin: 0;
     font-family: 'falling-sky-condensed-oblique';
-    /* font-family: 'chunky-queen'; */
     font-size: large;
     line-height: normal;
 }
@@ -16,14 +14,12 @@ body {
 header {
     display: flex;
     background-color: black;
-    /* color: #fff; */
     color: #00e004;
     margin-bottom: 40px;
 }
 
 .col-nav-1,
-.col-nav-2,
-.col-nav-empty {
+.col-nav-2 {
     flex: 1;
 }
 
@@ -71,8 +67,6 @@ header {
 }
 
 button {
-    /* background-color: white; */
-
     display: inline-block;
     outline: 0;
     cursor: pointer;
@@ -100,11 +94,9 @@ button {
 
 footer {
     position: absolute;
-    /* bottom: 0; */
     left: 0;
     width: 100%;
     background-color: black;
-    /* color: #fff; */
     color: #00e004;
 }
 
